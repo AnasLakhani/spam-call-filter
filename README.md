@@ -12,7 +12,7 @@ Spam Call Filter is an Android application designed to monitor incoming calls an
 
 ## Screenshots
 
-![Screenshot_1.png](screenshot_1.png)
+![Screenshot_1.png](Screenshot_1.png)
 
 ## Installation
 
