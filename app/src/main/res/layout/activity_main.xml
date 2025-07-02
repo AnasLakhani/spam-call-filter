@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btn_request_permissions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grant Permissions"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_call_log_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call Log"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+
+    <ListView
+        android:id="@+id/log_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp" />
+
+    <TextView
+        android:id="@+id/tv_footer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:layout_gravity="center"
+        android:linksClickable="true"
+        android:textColorLink="@android:color/holo_blue_light"
+        />
+</LinearLayout>

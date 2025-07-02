@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SpamCallFilter</string>
+    <string name="spam_call_logs">Spam Call Logs</string>
+    <string name="no_logs_available">No logs available.</string>
+</resources>
