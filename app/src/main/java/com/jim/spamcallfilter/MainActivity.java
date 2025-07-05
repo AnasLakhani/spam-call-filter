@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity implements LogUpdateListener
         TextView footerTextView = findViewById(R.id.tv_footer);
 
         Spanned htmlText;
-        String htmlString = "Created by <a href='https://upwork.com/freelancers/anaslakhani'>Anas Lakhani ❤️</a>";
+        String htmlString = "Created by <a href='https://upwork.com/freelancers/anaslakhani'>Jim Jewett ❤️</a>";
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
             htmlText = Html.fromHtml(htmlString, Html.FROM_HTML_MODE_LEGACY);
